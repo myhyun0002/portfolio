@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyeonjae's portfolio</title>
+    <meta name = "describtion" content="Hyeonjae who aretrying for the best engineer in the word">
+    <meta name = "author" content="Kim Hyeonjae">
+    <link rel="icon" type = "image/png" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/8e00753403.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src = "main.js" defer></script>
+</head>
+<body>
+
+  
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fab fa-diaspora"></i>
+            <a href="#">HyeonJae</a>
+        </div>
+        
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item"data-link="#skills">Skills</li>
+            <li class="navbar__menu__item"data-link="#work">My work</li>
+            <li class="navbar__menu__item"data-link="#testimonials">Testimonial</li>
+            <li class="navbar__menu__item"data-link="#contact">Contact</li>
+        </ul>
+
+        <!-- Toggle button -->  
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="images/3-4cm(인화용-300dpi).jpg" 
+                alt="사진" 
+                class="home__avator">
+            <h1 class="home__title">Hello, <br />I'm Hyeonjae</h1>
+            <h2 class="home__description">A Software Engineer Growing Every Day</h2>
+            <button class="home__contact">Contact Me</button>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>내가 처음 만드는 페이지이다. 어떻게 완성이 될 지는 모르겠지만 이 사이트를 한번 만들고 계속 추가하면서 나아가야겠다.
+            내 성장이 나는 기대가 된다. 기대를 저버리지 않게끔 계속 나 자신을 앞으로 나아가게 만들어야겠다. 화이팅 이 사이트가 시작이다!!
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">Front-end</h2>
+                <div class="major__description">html,css,javascript</div>
+            </div>       
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h2 class="major__title">Python</h2>
+                <div class="major__description">Python</div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h2 class="major__title">Java</h2>
+                <div class="major__description">java,c</div>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <p>여기에는 직업을 적는다 예를들어서 만들겟다.</p>
+            <div class="job">
+                <img src="images/jobs/한국항공대학교 logo.png" 
+                alt="한국항공대학교 로고" 
+                class = "job__logo"
+                width="30px" height="auto"/>
+                <div class="job__description">
+                    <p class="job__name">한국항공대학교</p>
+                    <p class="job__period">2018-2024</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attribute</h2>
+            <p>
+                하나의 과제가 있으면 끝까지 매달리는 끈기가 강한 것 같고 내 자신을 가만히 안놔두고
+                계속 성장시키는데 약간의 강박관념이 있는 것 같지만 성장하는 개발자로서 나쁘지 않은 성격인것 같다.
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>HTML</span>
+                                <span>20%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>java</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" tyle="width: 40%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>python</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" tyle="width: 50%;"></div>
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span></span>Java</li>
+                            <li><span></span>Python</li>
+                            <li><span></span>C</li>
+                            <li><span></span>HTML</li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>android</span></li>
+                            <li><span>css,javascript</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__catagories">
+                <button class="category__btn selected" data-filter = '*'>
+                    All<span class="category__count">
+                        2</span></button>
+                <button class="category__btn" data-filter = 'front-end'>
+                    Front-end<span class="category__count">
+                        1</span></button>
+                <button class="category__btn" data-filter = 'back-end'>
+                    Back-end<span class="category__count">
+                        0</span></button>
+                <button class="category__btn" data-filter = 'mobile'>
+                    Mobile<span class="category__count">
+                        1</span></button>
+            </div>
+
+            <div class="work__projects">
+                <a href="https://github.com/myhyun0002/hyeonjae_portfolio" 
+                class="project invisible"
+                target="blank" data-type = 'front-end'>
+                    <img src="images/project-images/첫번째 html 캡쳐.png" alt="html캡쳐" width="400px" height="auto"
+                    class="project__img">
+                    <div class="project__desciption">
+                        <h3>first HTML</h3>
+                        <span>this website</span>
+                    </div>
+                </a>
+            
+<!-- 
+                <a href="https://github.com/myhyun0002/portfolio" 
+                class="project invisible"
+                target="blank" data-type = 'back-end'>
+                    <img src="images/project-images/두번째 자바 사진.png" alt="html캡쳐" width="400px" height="auto"
+                    class="project__img">
+                    <div class="project__desciption">
+                        <h3>back-end</h3>
+                        <span>html 코드이다. 근데 back-end</span>
+                    </div>
+                </a> -->
+
+                <!-- <a href="https://github.com/myhyun0002/portfolio" 
+                class="project invisible"
+                target="blank" data-type = 'mobile'>
+                    <img src="images/project-images/세번째 Mobile.jpg" alt="html캡쳐" width="400px" height="auto"
+                    class="project__img">
+                    <div class="project__desciption">
+                        <h3>back-end</h3>
+                        <span>html 코드이다. 근데 back-end</span>
+                    </div>
+                </a> -->
+
+                <a href="https://github.com/myhyun0002/with_er" 
+                class="project invisible"
+                target="blank" data-type = 'mobile'>
+                    <img src="images/project-images/위더 아이콘.png" alt="html캡쳐" width="400px" height="auto"
+                    class="project__img">
+                    <div class="project__desciption">
+                        <h3>위더</h3>
+                        <span>gps 이용한 소규모 취미 공유 앱</span>
+                    </div>
+                </a>
+
+        </div>
+        
+    </section>
+    <!-- Testimonals -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <!-- 여기서 부터는 지인들의 평가를 적으면 된다. -->
+            <!-- <div class="testimonials">
+                <div class="testimonial">
+                    <img src="images/testimonials/peopel1.jpg" 
+                    alt="people" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p>아주 잘해요</p>
+                        <p><a href="https://github.com/myhyun0002/portfolio" target="blank">김현재</a>/samsung</p>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial__speech-bubble">
+                        <p>아주 잘해요sdfslkdjflksdfjslkf
+                            sdflksjdfksldjfslkdfjs
+                            fjslkdjfsldkf
+                        </p>
+                        <p><a href="https://github.com/myhyun0002/portfolio" target="blank">김현재</a>/samsung</p>
+                    </div>
+                    <img src="images/testimonials/peopel1.jpg" 
+                    alt="people" class="testimonial__avatar"> -->
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">a01089417552@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/myhyun0002" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="contact__rights">2022 Hyeonjae - All rights reserved
+        </p>
+    </section>
+
+    <!-- upButton -->
+        <button class="arrow-up">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+</body>
+</html>
